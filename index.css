@@ -11,7 +11,7 @@ html{
     display: grid;
     grid-template-columns: 5fr 4fr;
     padding: 5px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     
 
 
@@ -48,6 +48,7 @@ header{
     position: fixed;
 
     line-height: 50px;
+    /* margin-bottom: 5vh; */
     
 }
 
