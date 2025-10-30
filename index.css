@@ -98,14 +98,18 @@ header{
 .first div{
     width: 50%;
     height: 300px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .first{
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
     text-align: justify;
     margin-bottom: 10%;
+}
+
+.skills{
+    line-height: 50px;
 }
 
 .Child div{
