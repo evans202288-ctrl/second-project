@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.moses{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    padding: 5px;
+    /* margin-bottom: 5%; */
+
+
+    width: 10px auto;
+    justify-content: space-between;
+    /* display: flex; */
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0000ff;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+header{
+    background-color: aqua;
+    position: fixed;
+
+    line-height: 50px;
+    
+}
+
+.Child div{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid gray; */
+    padding: 5px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.Child{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 3rem;
+    row-gap: 3rem;
+    gap: 2rem;
+    text-align: center;
+    /* place-content: center; */
+}
+
+.pikin h1{
+    font-size: 10vh;
+    color: black;
+}
+
+.pikin p{
+   font-size: 3vh;
+   color: rgb(131, 130, 130);
+   margin-bottom: 5%;
+}
+
+footer{
+    background-color: navy;
+    text-align: center;
+}
