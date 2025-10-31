@@ -11,7 +11,7 @@ html{
     display: grid;
     grid-template-columns: 5fr 4fr;
     padding: 5px;
-    
+
     width: 10px auto;
     justify-content: space-between;
     /* display: flex; */
