@@ -61,6 +61,15 @@ header{
     font-size: x-large;
 }
 
+.btn.red{
+    background-color: #0000ff;
+    color: white;
+}
+
+.mack{
+    background-image: url(/image/WhatsApp\ Image\ 2025-10-31\ at\ 13.35.35.jpeg);
+}
+
 .article{
     background-color: gray;
 }
@@ -402,4 +411,5 @@ header{
 
 footer{
     background-color: navy;
+    color: white;
 }
