@@ -71,7 +71,7 @@ main { padding-top: calc(var(--header-h) + 18px); }
 
 .mack {
   /* hero left column with subtle overlay on image */
-  background-image: linear-gradient(rgba(255,255,255,.65), rgba(255,255,255,.65)), url("/image/WhatsApp Image 2025-10-31 at 13.35.35.jpeg");
+  background-image: linear-gradient(rgba(255,255,255,.65), rgba(255,255,255,.65)),url("/image/WhatsApp Image 2025-10-31 at 13.35.35.jpeg");
   background-size: cover; background-position: center;
   padding: 2.2rem;
   display: flex; flex-direction: column; gap: 1rem; justify-content: center;
